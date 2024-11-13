@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "id": "5584",
+      "name": "Dhivya",
+      "email": "dhivya@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "e1ce",
+      "name": "Dhivyadharshini ",
+      "email": "dhivyad@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "1558",
+      "name": "Dhivya",
+      "email": "dhivya@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "c476",
+      "name": "dd",
+      "email": "dharani@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "59bc",
+      "name": "dhivya",
+      "email": "123@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "965e",
+      "name": "Dhivya",
+      "email": "123@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "4d5a",
+      "name": "dhivya",
+      "email": "dhivya@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "5051",
+      "name": "Dhivya",
+      "email": "dharshini@gmail.com",
+      "password": "123"
+    }
+  ],
+  "journeys": [
+    {
+      "id": "8a4a",
+      "source": "Coimbatore",
+      "destination": "Salem",
+      "date": "2024-10-31"
+    },
+    {
+      "id": "2645",
+      "source": "Coimbatore",
+      "destination": "Salem",
+      "date": "2024-10-29"
+    },
+    {
+      "id": "9902",
+      "source": "Coimbatore",
+      "destination": "Salem",
+      "date": "2024-10-29"
+    },
+    {
+      "id": "e999",
+      "source": "Coimbatore",
+      "destination": "Salem",
+      "date": "2024-10-29"
+    },
+    {
+      "id": "c3fe",
+      "source": "Coimbatore",
+      "destination": "Dharapuram",
+      "date": "2024-10-29"
+    },
+    {
+      "id": "07c0",
+      "source": "Coimbatore",
+      "destination": "Dharapuram",
+      "date": "2024-10-29"
+    },
+    {
+      "id": "dfd2",
+      "source": "Coimbatore",
+      "destination": "Salem",
+      "date": "2024-10-30"
+    }
+  ]
+}

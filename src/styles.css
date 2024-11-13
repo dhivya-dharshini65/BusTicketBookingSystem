@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .header .app-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Form Container Styles */
+  .form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Dashboard Styles */
+  .dashboard {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar h2 {
+    font-size: 18px;
+  }
+  
+  .sidebar img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .main-content h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .main-content p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .dashboard {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid #ccc;
+    }
+  }
+  

@@ -1,0 +1,136 @@
+.home-container {
+    display: flex;
+    flex-direction: column; /* Arrange sections vertically */
+    padding: 20px;
+    background-color: #f1f8e9; /* Light green background for the whole page */
+}
+
+.get-new-tickets-section {
+    background-color: #e8f5e9; /* Slightly darker green for the get tickets section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; /* Margin to separate sections */
+}
+
+.get-tickets-title {
+    text-align: center;
+}
+
+.get-tickets-btn {
+    background-color: #81c784; /* Light green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.get-tickets-btn:hover {
+    background-color: #66bb6a; /* Darker green on hover */
+}
+
+.add-journey-section {
+    background-color: #e8f5e9; /* Light green for the add journey section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; /* Margin to separate sections */
+}
+
+.add-journey-title {
+    text-align: center;
+}
+
+.journey-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.journey-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Bold labels for visibility */
+    color: #388e3c; /* Dark green color for labels */
+}
+
+.journey-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #81c784; /* Light green border */
+    border-radius: 4px;
+    transition: border-color 0.3s; /* Transition for focus effect */
+}
+
+.journey-input:focus {
+    border-color: #66bb6a; /* Darker green on focus */
+}
+
+.add-journey-btn {
+    background-color: #81c784; /* Light green for button */
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Increased padding for better button size */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Added transition for scale effect */
+}
+
+.add-journey-btn:hover {
+    background-color: #66bb6a; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.steps-section {
+    text-align: center;
+}
+
+.steps-title {
+    margin: 20px 0;
+    font-size: 28px; /* Increased font size for title */
+    color: #388e3c; /* Darker green color for the title */
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-around; /* Distributes space evenly between items */
+    flex-wrap: wrap; /* Allows wrapping to prevent overflow on smaller screens */
+}
+
+.step-item {
+    background-color: hsl(144, 35%, 71%); /* Light cyan background */
+    border-radius: 8px;
+    padding: 15px;
+    width: 30%; /* Set a width to control the layout */
+    margin: 10px; /* Margin between step items */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s; /* Transition for hover effect */
+}
+
+.step-item:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.step-icon {
+    font-size: 40px; /* Icon size */
+    margin-bottom: 10px;
+}
+
+.step-content {
+    text-align: left; /* Align text to the left for better readability */
+}
+
+.step-item-title {
+    margin: 0;
+    font-size: 20px; /* Font size for step title */
+    color: #00796b; /* Dark teal color for step title */
+}
+
+.step-item-description {
+    margin: 5px 0 0 0;
+    color: #555; /* Grey color for step description */
+}

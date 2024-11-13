@@ -1,0 +1,140 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+      background: rgba(248, 232, 232, 0.9);   
+      opacity:4.5;
+     /* background-image: url("https://www.hdwallpapers.in/download/closeup_view_of_highway_road_between_red_yellow_autumn_trees_forest_bushes_green_plants_hd_scenery-1920x1080.jpg"); */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  .space-x-4
+  {
+    padding-left: 54%;
+  }
+  button {
+    cursor: pointer;
+  }
+  
+  /* Header */
+  header {
+    padding: 16px;
+    color: white;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+  }
+  
+  header nav ul li button {
+    background: none;
+    border: none;
+    /* color: white; */
+    font-size: 16px;
+  }
+  
+  header nav ul li button:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 16px;
+    padding-top: 150px;
+    text-align: center;
+  }
+  
+  /* Main content */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+  }
+  .container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  .container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  .container3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  /* Card */
+  .card {
+    /* background-color: white; */
+    border-radius: 8px;
+    width:500px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    margin-bottom: 16px; 
+  }
+
+  /* Forms */
+  input, select {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .change
+  {
+    background: linear-gradient(135deg, rgb(217, 172, 231), rgb(240, 108, 243),rgb(217, 172, 231));
+    height: 50px; 
+    width: 500px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    text-align: center;
+    align-items: center;
+  }
+  button {
+    padding: 12px 24px;
+    background-color:   #eb4ce3;
+    /* color: white; */
+    border: none;
+    border-radius: 4px;
+    margin-top: 8px;
+  }
+  
+  button:hover {
+    background-color: #ec957a;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .road
+  {
+    width: 500px;
+    height: 300px;
+    padding-left: 300px;
+  }
+  
+  @media (min-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
